@@ -1,0 +1,11 @@
+C:\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.deps.json
+C:\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.runtimeconfig.json
+C:\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.runtimeconfig.dev.json
+C:\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.dll
+C:\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.pdb
+C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.csprojResolveAssemblyReference.cache
+C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.csproj.CoreCompileInputs.cache
+C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.AssemblyInfoInputs.cache
+C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.AssemblyInfo.cs
+C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.dll
+C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.pdb
