@@ -9,3 +9,17 @@ C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.Assemb
 C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.AssemblyInfo.cs
 C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.dll
 C:\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.pdb
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.deps.json
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.runtimeconfig.json
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.runtimeconfig.dev.json
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.dll
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\bin\Debug\netcoreapp2.0\AspnetNote.MVC6.pdb
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.csprojAssemblyReference.cache
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.AssemblyInfoInputs.cache
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.AssemblyInfo.cs
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.dll
+C:\Users\LOGAN\Source\Repos\ldwv6\MVC\AspnetNote\AspnetNote.MVC6\obj\Debug\netcoreapp2.0\AspnetNote.MVC6.pdb

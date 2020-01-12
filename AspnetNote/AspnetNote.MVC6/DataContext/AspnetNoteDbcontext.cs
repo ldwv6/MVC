@@ -10,11 +10,11 @@ namespace AspnetNote.MVC6.DataContext
     public class AspnetNoteDbcontext : DbContext
     {
         public DbSet<User> Users { get; set; }
-        public DbSet<User> Notes { get; set; }
+        public DbSet<Note> Notes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
-            optionBuilder.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ldwv6\Documents\AspnetNoteDb.mdf;Integrated Security=True;Connect Timeout=30");
+            optionBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=C:\USERS\LOGAN\SOURCE\REPOS\LDWV6\MVC\ASPNETNOTE\ASPNETNOTE.MVC6\DATA.MDF;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }
     }
 }
