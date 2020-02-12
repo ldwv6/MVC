@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AspnetNote.MVC6.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace AspnetNote.MVC6.Controllers
 {
@@ -12,20 +13,17 @@ namespace AspnetNote.MVC6.Controllers
     {
         public IActionResult Index()
         {
-            return View();
-        }
-
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
+            if (HttpContext.Session.GetInt32("USER_LOGIN_KEY") == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
 
             return View();
         }
 
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
+        
+        public IActionResult LoginSucess()
+        { 
             return View();
         }
 
