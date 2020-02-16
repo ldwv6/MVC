@@ -32,6 +32,6 @@ namespace AspnetNote.MVC6.Models
         /// </summary>
 
         [ForeignKey("UserNo")]
-        public virtual User USer { get; set; }
+        public virtual int UserNo { get; set; }
     }
 }

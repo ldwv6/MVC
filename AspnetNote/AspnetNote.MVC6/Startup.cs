@@ -23,6 +23,7 @@ namespace AspnetNote.MVC6
         {
             services.AddMvc();
 
+            // Session - 서비스에 등록함 
             services.AddSession();
         }
 
@@ -40,6 +41,7 @@ namespace AspnetNote.MVC6
             }
 
             app.UseStaticFiles();
+            // Application 에서 사용하겠다.
             app.UseSession();
 
             app.UseMvc(routes =>

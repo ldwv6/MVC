@@ -25,6 +25,20 @@ namespace AspnetNote.MVC6.Controllers
             }
         }
 
+        public IActionResult Detail(int noteNo)
+        {
+            if(HttpContext.Session.GetInt32("USER_LOGIN_KEY") == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            using(var db = new AspnetNoteDbcontext())
+            {
+                var note = db.Notes.FirstOrDefault(n => n.NoteNo.Equals(noteNo));
+                return View(note);
+            }
+        }
+
         public IActionResult Add()
         {
             if (HttpContext.Session.GetInt32("USER_LOGIN_KEY") == null)
@@ -42,6 +56,8 @@ namespace AspnetNote.MVC6.Controllers
             {
                 return RedirectToAction("Login", "Account");
             }
+
+            model.UserNo = int.Parse(HttpContext.Session.GetInt32("USER_LOGIN_KEY").ToString());
 
             if (ModelState.IsValid)
             {

@@ -1,5 +1,5 @@
 ﻿
-<table class="table-bordered table-hover" style="height:100%; width:100%" > 
+<table class="table-bordered table-hover" style="height:100%; width:100%">
     <thead>
         <tr>
             <th>번호</th>
@@ -13,11 +13,21 @@
         {
             <tr>
                 <td>@note.NoteNo</td>
-                <td>@note.NoteTitle</td>
-                <td>@note.User</td>
+                <td>
+                    @*http://www.ex.com/{noteNo}
+                    http://www.ex.com/Note/Detail?noteNo=1*@
+
+                    <a asp-controller="Note" asp-action="Detail" asp-route-noteNo="@note.NoteNo">
+                        @note.NoteTitle
+                    </a>
+  
+                </td>
+                <td>@note.UserNo</td>
             </tr>
         }
     </tbody>
 </table>
+
+<br />
 
 <a class="btn btn-warning" asp-controller="Note" asp-action="Add">게시물 작성</a>

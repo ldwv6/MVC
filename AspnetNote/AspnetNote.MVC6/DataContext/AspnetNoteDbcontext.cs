@@ -14,7 +14,7 @@ namespace AspnetNote.MVC6.DataContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
-            optionBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=C:\USERS\LOGAN\SOURCE\REPOS\LDWV6\MVC\ASPNETNOTE\ASPNETNOTE.MVC6\DATA.MDF;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            optionBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=C:\USERS\LOGAN\SOURCE\REPOS\LDWV6\MVC\ASPNETNOTE\ASPNETNOTE.MVC6\note.MDF;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         }
     }
 }

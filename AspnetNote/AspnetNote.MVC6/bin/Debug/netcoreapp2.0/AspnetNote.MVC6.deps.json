@@ -29,7 +29,8 @@
           "Microsoft.EntityFrameworkCore": "2.1.0",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
           "Microsoft.NETCore.App": "2.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.4"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.4",
+          "Trumbowyg": "1.0.1"
         },
         "runtime": {
           "AspnetNote.MVC6.dll": {}
@@ -4515,6 +4516,7 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
+      "Trumbowyg/1.0.1": {},
       "WindowsAzure.Storage/8.1.4": {
         "dependencies": {
           "Microsoft.Data.OData": "5.8.2",
@@ -6869,6 +6871,13 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Trumbowyg/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TpqGyM7q+uPuac4Oa7dK62jkUksFlMOofyjv5JiVdCVk1iVF2B5UYzLfYcygpgh0Oy/9gIuhNwi+UkNubcVyAA==",
+      "path": "trumbowyg/1.0.1",
+      "hashPath": "trumbowyg.1.0.1.nupkg.sha512"
     },
     "WindowsAzure.Storage/8.1.4": {
       "type": "package",

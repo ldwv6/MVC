@@ -36,7 +36,7 @@ namespace AspnetNote.MVC6.Controllers
                     //                    u.UserPassword.Equals(model.UserPassword));
 
                     var user = db.Users
-                       .FirstOrDefault(u => u.UserID.Equals(model.UserID));
+                       .FirstOrDefault(u => u.UserID.Equals(model.UserID) && u.UserPassword.Equals(model.UserPassword));
 
                     if (user != null)
                     {
@@ -50,11 +50,9 @@ namespace AspnetNote.MVC6.Controllers
                         //// ModelState.AddModelError(string.Empty, "사용자 ID 가 존해 하지 않습니다");
                         return RedirectToAction("LoginSucess", "Home");
                     }
-
-                    // 로그인에 실패했을 때 
-                    ModelState.AddModelError(string.Empty, "사용자 ID 혹은 비밀번호가 올바르지 않습니다.");
                 }
-
+                // 로그인에 실패했을 때 
+                ModelState.AddModelError(string.Empty, "사용자 ID 혹은 비밀번호가 올바르지 않습니다.");
             }    
             return View();
         }
